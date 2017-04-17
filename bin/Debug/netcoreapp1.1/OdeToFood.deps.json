@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "d206126c02eb4563ffc8718ac813484a16d13953"
+    "signature": "cf0257954250022f1918064087bff6ce3362a1e5"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v1.1": {
       "odetofood/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
           "Microsoft.AspNetCore": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1"
         },
@@ -33,6 +34,7 @@
           "OdeToFood.dll": {}
         }
       },
+      "microsoft.aspnet.mvc/6.0.0-rc1-final": {},
       "microsoft.aspnetcore/1.1.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics": "1.1.1",
@@ -2386,6 +2388,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "microsoft.aspnet.mvc/6.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gKQUI2L58PibL4v/BCsML5RvpcAWQ7gNCn2xQVhLvt2fGDfRAYIr2SnalRJ0M8m+hdHDNtWydfaVrOC799zKtQ==",
+      "path": "microsoft.aspnet.mvc/6.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.mvc.6.0.0-rc1-final.nupkg.sha512"
     },
     "microsoft.aspnetcore/1.1.1": {
       "type": "package",
