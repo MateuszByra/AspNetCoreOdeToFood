@@ -42,6 +42,9 @@
           }
         }
       },
+      "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
+        "type": "package"
+      },
       "Microsoft.AspNetCore/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -3013,6 +3016,19 @@
         "runtimes/win7-arm/native/libuv.dll",
         "runtimes/win7-x64/native/libuv.dll",
         "runtimes/win7-x86/native/libuv.dll"
+      ]
+    },
+    "Microsoft.AspNet.Mvc/6.0.0-rc1-final": {
+      "sha512": "gKQUI2L58PibL4v/BCsML5RvpcAWQ7gNCn2xQVhLvt2fGDfRAYIr2SnalRJ0M8m+hdHDNtWydfaVrOC799zKtQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/6.0.0-rc1-final",
+      "files": [
+        "lib/dotnet5.4/Microsoft.AspNet.Mvc.dll",
+        "lib/dotnet5.4/Microsoft.AspNet.Mvc.xml",
+        "lib/net451/Microsoft.AspNet.Mvc.dll",
+        "lib/net451/Microsoft.AspNet.Mvc.xml",
+        "microsoft.aspnet.mvc.6.0.0-rc1-final.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
       ]
     },
     "Microsoft.AspNetCore/1.1.1": {
@@ -8618,6 +8634,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "Microsoft.AspNet.Mvc >= 6.0.0-rc1-final",
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.NETCore.App >= 1.1.1"
     ]
@@ -8655,6 +8672,10 @@
           "Microsoft.AspNetCore": {
             "target": "Package",
             "version": "1.1.1"
+          },
+          "Microsoft.AspNet.Mvc": {
+            "target": "Package",
+            "version": "6.0.0-rc1-final"
           }
         }
       }
