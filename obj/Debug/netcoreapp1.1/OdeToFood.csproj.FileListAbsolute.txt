@@ -1,0 +1,8 @@
+/home/mateusz/Projekty/Pluralsight/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.deps.json
+/home/mateusz/Projekty/Pluralsight/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.json
+/home/mateusz/Projekty/Pluralsight/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.dev.json
+/home/mateusz/Projekty/Pluralsight/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.dll
+/home/mateusz/Projekty/Pluralsight/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.pdb
+/home/mateusz/Projekty/Pluralsight/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.AssemblyInfo.cs
+/home/mateusz/Projekty/Pluralsight/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.dll
+/home/mateusz/Projekty/Pluralsight/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.pdb
