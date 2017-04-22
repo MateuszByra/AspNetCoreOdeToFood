@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
@@ -41,6 +42,19 @@ namespace OdeToFood
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler(new ExceptionHandlerOptions{
+                    ExceptionHandler=context=>context.Response.WriteAsync("Opps! It isn't Development environment.")
+                });
+            }
+
+            app.UseFileServer();// use files in respond, eg. html.
+
+            app.UseWelcomePage(new WelcomePageOptions{
+                Path="/welcome"
+            });
+
 
             app.Run(async (context) =>
             {
