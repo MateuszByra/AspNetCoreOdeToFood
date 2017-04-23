@@ -11,7 +11,7 @@ namespace OdeToFood.Controllers
             var model = new Restaurant { Id = 1, Name = "The House of Kobe." };
 
             //return new ObjectResult(model); // object result return serialized model, eg. in json (if app content in header is json. Depends on content header).
-            return View();
+            return View(model);
         }
     }
 }
